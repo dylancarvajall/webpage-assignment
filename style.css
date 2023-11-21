@@ -4,6 +4,25 @@
     font-family: 'Kdam Thmor Pro';
 }
 
+.container-fluid img {
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: white;
+} 
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background-image: url(sc_center_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .background-image {
     background-image: url(images/banner.png);
     background-size: cover;
@@ -14,10 +33,14 @@
     transform: initial !important;
     }
 
-.nav-links {
-    flex: 1;
-    text-align: right;
+.nav-link {
+    color: black;
 }
+
+.nav-link:hover {
+    color: rgb(148, 110, 245);
+}
+
 
 .nav-links ul li {
     list-style: none;
@@ -53,3 +76,69 @@
     transform: translate(-50,-50);
     text-align: center;
 }
+
+header, footer {
+    background-color: #ccc;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid rgb(148, 110, 245);
+    background: rgb(148, 110, 245);
+    transition: 1s;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c7f7d;
+    width: 100%;
+    padding: 1em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(148, 110, 245);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+#copyright {
+    color: black;
+}
+/* @media was to make the website appear correct on smaller screen */
+
+
+
