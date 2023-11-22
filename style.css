@@ -18,6 +18,8 @@ p {
     color: red;
 }
 
+
+
 .container-fluid img {
     margin: 0;
     padding: 0;
@@ -42,6 +44,9 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .rev_slider {
     transform: initial !important;
@@ -74,7 +79,7 @@ p {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgb(148, 110, 245);
+    background: rgba(148, 110, 245,.5);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -85,9 +90,7 @@ p {
 }
 .text-box{
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     transform: translate(-50,-50);
     text-align: center;
 }
@@ -96,8 +99,34 @@ header, footer {
     background-color: #ccc;
 }
 
+.btn {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://openclipart.org/image/800px/svg_to_png/213239/Search-icon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.btn2 {
+    padding: 0;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    background-image: url(http://www.clker.com/cliparts/5/j/r/G/y/p/shopping-cart-icon.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+
 .text-box h1{
     font-size: 62px;
+    background-color: #00000080;
 }
 .text-box p{
     margin: 10px 0 40px;
